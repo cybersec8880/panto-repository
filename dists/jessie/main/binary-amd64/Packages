@@ -1,0 +1,588 @@
+Package: debian-system-adjustments
+Version: 2015.11.09
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 11893
+Depends: dconf-gsettings-backend | gsettings-backend, libglib2.0-bin, python
+Priority: optional
+Section: admin
+Filename: pool/main/d/debian-system-adjustments/debian-system-adjustments_2015.11.09_all.deb
+Size: 289588
+SHA256: 26f90fab2fde6345f4b6cdfd880076519afa430dbbe60159118247968229d1ad
+SHA1: f618691d0be1c85c806e7265cac9b022af8de7db
+MD5sum: a59ffef8f14bb8b633a2d60dd8bf3224
+Description: Debian adjustments specific to Linux Panto.
+ Adjustments made to the Debian base.
+
+Package: fortunes-husse
+Version: 1.0.2
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 54
+Depends: fortune-mod
+Priority: optional
+Section: admin
+Filename: pool/main/f/fortunes-husse/fortunes-husse_1.0.2_all.deb
+Size: 9950
+SHA256: 85d792cb72a3fc818f183d40b958cb2ebf83decc76be59d694c8fbcd93799312
+SHA1: 09b20bbd02e33e5bba74a0fe95041eff12182cbe
+MD5sum: 24bddcca573dfcb004307bc349dfc39a
+Description: Fortunes containing quotes from Husse.
+ In memory of our lost and regretted friend, Mats Geier, aka "Husse".
+
+Package: iso-localize
+Version: 1.0.7
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 100
+Depends: python (>= 2.4), python (<< 3), squashfs-tools, coreutils, genisoimage, rsync
+Priority: optional
+Section: admin
+Filename: pool/main/i/iso-localize/iso-localize_1.0.7_all.deb
+Size: 25590
+SHA256: 9fe119b7d1c5813a1a07a47199fb2531615c1eccd2b8a2dea3731c3578a7a016
+SHA1: 2f91ee0ecce4d90f54b88929d38f9bf6ff0d4536
+MD5sum: dd0982c6ff0b79d67a7441c003969ba3
+Description: ISO Localizer for Linux Panto
+ This tool is a command line utility to change the locale of a Linux Panto ISO.
+
+Package: live-installer
+Version: 2015.09.19
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 1727
+Depends: python (>= 2.7), python (<< 3), python-gtk2, python-glade2, python-webkit, python-parted, parted, gparted, python-qt4, python-opencv, python-imaging, imagemagick, isoquery, desktop-file-utils, shared-mime-info, sysv-rc, menu, gdisk, iso-codes, locales, adduser
+Priority: optional
+Section: admin
+Filename: pool/main/l/live-installer/live-installer_2015.09.19_all.deb
+Size: 1233834
+SHA256: 478a09d44eadbd775d08439f394cb449c455ed2d8f4ec86d456c901aacf0141a
+SHA1: bdf0684ac2155cea4e8bda131e59a021b7a53a07
+MD5sum: 85970b92b073d6938b46b92b5eaf8e21
+Description: Live Installer
+ A live installer
+
+Package: panto-artwork-xfce
+Version: 2016.01.05
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec,org>
+Installed-Size: 70166
+Depends: panto-backgrounds-xfce, moka-colorized-edited, lightdm-gtk-greeter-settings, xfwm4-composite-editor, xfce-theme-manager, panto-common, fortunes-husse, rkhunter, dbus, memtest86+, coreutils, dialog, mkisofs | genisoimage, findutils, bash, passwd, sed, squashfs-tools, rsync, mount, eject, os-prober, user-setup, discover1 | discover, laptop-detect, util-linux, python, python-glade2, python-vte, plymouth-x11, pv, zenity, gksu, terminator, conky, conky-all, tor, vidalia, leafpad, bzr, xfce4-session, festival, dockbarx, xfce4-dockbarx-plugin, dockbarx-themes-extra, fonts-droid, x11-common, lightdm-gtk-greeter, xfdesktop4, bleachbit, curl, virt-what, secure-delete, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-dev-tools
+Provides: gdm-theme
+Priority: required
+Section: admin
+Filename: pool/main/p/panto-artwork-xfce/panto-artwork-xfce_2016.01.05_all.deb
+Size: 16669178
+SHA256: 404cd85d8d5917b270d69f03d4466c6f1ff23c03076dfc90b447aa1dfbbc7c7f
+SHA1: 9a1290a99bf5b0f2bdbcfc06a5b164126108ef3e
+MD5sum: 24f3996256a6386ef3ddadb4f2b99fb6
+Description: Default artwork for Linux Panto
+ Icons, themes, backgrounds and all the artwork which comes installed by default in Linux Panto.
+
+Package: panto-backgrounds-debian
+Version: 1.2
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 40841
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-backgrounds-debian/panto-backgrounds-debian_1.2_all.deb
+Size: 33287510
+SHA256: 6927c83c140f8b96d6c3fcbebdea7141d5917b4507664546da2a3f8b2e5eed44
+SHA1: e9f0e613c3574f3ac1a181d29c8613cd66255af8
+MD5sum: 5ad326078a14b78519de7031455a4408
+Description: The desktop backgrounds made for Linux Panto Debian Edition
+ This package contains quality desktop backgrounds made for Linux Panto Debian Edition.
+
+Package: panto-backgrounds-xfce
+Version: 2015.11.13
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 36801
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-backgrounds-xfce/panto-backgrounds-xfce_2015.11.13_all.deb
+Size: 28706710
+SHA256: a18ff874adcf071bf7a44c1c0ece4aead1639c496b022cc5bd8a0dc952a20062
+SHA1: 94d0ca0828611df08fe92c13d30b92e4d4c8f401
+MD5sum: 2243156aeacb5de58432b09cf1c2ad01
+Description: Desktop backgrounds for Linux Panto Xfce
+ This package contains quality desktop backgrounds made for Linux Panto
+
+Package: panto-common
+Version: 1.2.2
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 365
+Depends: python (>= 2.4), python (<< 3), python-gi, panto-translations, synaptic
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-common/panto-common_1.2.2_all.deb
+Size: 225906
+SHA256: 68771d13da708082f992ac239dc225c0242769dfb693bf0449610789f46f8ba8
+SHA1: f3be14e6573cf1a93076f05d20105f04c7cbb154
+MD5sum: 9c63611a83abf550c62cd74c9f47a376
+Description: Common scripts and resources for Linux Panto
+ A collection of scripts and resources used by other Linux Panto packages
+
+Package: panto-debian-installer
+Version: 1.0.7
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 132
+Depends: python (>= 2.4), python (<< 3), python-gtk2, python-glade2, rsync, grub
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-debian-installer/panto-debian-installer_1.0.7_all.deb
+Size: 12682
+SHA256: 65bbf193a362de34290209fa4c38202ba64ab75d17b681fc7184dba6ffed3ee5
+SHA1: c0a0a5426dc8653bd6a3b5a619b4878465b6c0bd
+MD5sum: 0283709735ee5131b3ce9ffcc6a953b9
+Description: Linux Panto Debian live CD installer
+ This is a live CD installer written for Linux Panto Debian Edition.
+
+Package: panto-debian-mirrors
+Version: 2013.09.23
+Architecture: all
+Maintainer: Clement Lefebvre <clem@linuxpanto.com>
+Installed-Size: 48
+Depends: python-pycurl, debconf
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-debian-mirrors/panto-debian-mirrors_2013.09.23_all.deb
+Size: 4996
+SHA256: 25aa04f41514e796b71b3edaefabf59fb2b83aa772f4f3866a7389dcd72e1163
+SHA1: 51aba9c72bc758fd53e0a545b798c97c0966418f
+MD5sum: 9249a77b632620b1b2affc9f5844518a
+Description: List of LMDE mirrors
+ This package provides a list of LMDE mirrors and checks which one is the fastest for you.
+
+Package: panto-info-debian-cinnamon
+Source: panto-info-debian
+Version: 2012.09.12
+Architecture: amd64
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 34
+Conflicts: panto-info-debian
+Replaces: panto-info-debian
+Provides: panto-info
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-info-debian/panto-info-debian-cinnamon_2012.09.12_amd64.deb
+Size: 1970
+SHA256: b97e6d6108fa42eb082c56c92a5cd7eb164fcb5a44ea793a773f745a0b1c2c65
+SHA1: 87cf0de82eb9faf285a1e158b299d647f36fb61c
+MD5sum: f8b9c7d6edd3823a8ed430ee2ec55906
+Description: Necessary information about the Linux Panto release and edition.
+ Base package. This package is needed by the Panto tools and the system to uniquely identify the edition and release of Linux Panto you're using and to get information related to it.
+
+Package: panto-info-debian-kde
+Source: panto-info-debian
+Version: 2012.09.12
+Architecture: amd64
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 34
+Provides: panto-info
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-info-debian/panto-info-debian-kde_2012.09.12_amd64.deb
+Size: 1940
+SHA256: 3215961f0b34988cde39577e55155fafe5ef3f29332423ddbf067230167231bc
+SHA1: 4ee253121a6a1099695f2175b25c07ce128eef18
+MD5sum: 401f2db2615c0cb19fc9ee34bf4caa0f
+Description: Necessary information about the Linux Panto release and edition.
+ Base package. This package is needed by the Panto tools and the system to uniquely identify the edition and release of Linux Panto you're using and to get information related to it.
+
+Package: panto-info-debian-mate
+Source: panto-info-debian
+Version: 2012.09.12
+Architecture: amd64
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 34
+Conflicts: panto-info-debian
+Replaces: panto-info-debian
+Provides: panto-info
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-info-debian/panto-info-debian-mate_2012.09.12_amd64.deb
+Size: 1954
+SHA256: 77e7d067d11a2326e91ffb2a185292bf9823983db24c5b9ee646b9ce8bacde26
+SHA1: c43c71aee1e75bb1ea05201921f42c32a77d4add
+MD5sum: 6fdd10c96e3734045c6773ef986f902a
+Description: Necessary information about the Linux Panto release and edition.
+ Base package. This package is needed by the Panto tools and the system to uniquely identify the edition and release of Linux Panto you're using and to get information related to it.
+
+Package: panto-info-debian-xfce
+Source: panto-info-debian
+Version: 2012.09.12
+Architecture: amd64
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 34
+Conflicts: panto-info-xfce
+Replaces: panto-info-xfce
+Provides: panto-info
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-info-debian/panto-info-debian-xfce_2012.09.12_amd64.deb
+Size: 1960
+SHA256: 76805f2583f876a2d5c40a84debfdc9aa8df4bf379fcf21ffd2143204e13cf17
+SHA1: bdc344b5c80e10f2b0686bc3781bd056d9902132
+MD5sum: 2d4d2bb0137adbba8b3f43b5a34efb5c
+Description: Necessary information about the Linux Panto release and edition.
+ Base package. This package is needed by the Panto tools and the system to uniquely identify the edition and release of Linux Panto you're using and to get information related to it.
+
+Package: panto-meta-codecs
+Source: panto-meta-debian-codecs
+Version: 2015.06.16
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 25
+Depends: panto-meta-debian-codecs
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-meta-debian-codecs/panto-meta-codecs_2015.06.16_all.deb
+Size: 1456
+SHA256: 963ecdc75af2c194ca1a7b49c1b06290f563efde3452a45211460d69fb675c6c
+SHA1: 1514faba808a589e84f367e176093f17badf0d3d
+MD5sum: 7a4c1051c5707fe1290dd2d7c55b35cc
+Description: Transitional package.
+ Transitional package, it can be safely removed. Replaced by panto-meta-debian-codecs.
+
+Package: panto-meta-debian-cinnamon
+Source: panto-meta-debian
+Version: 2014.02.05.1
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 25
+Depends: panto-meta-debian-core, gdebi, panto-artwork-cinnamon, pidgin, thunderbird, fonts-droid, fonts-liberation, pantostick, xchat, xchat-common, xdg-user-dirs-gtk, nemo, nemo-fileroller, cinnamon, cinnamon-screensaver, cinnamon-session, cinnamon-control-center, cinnamon-themes, gir1.2-gnomedesktop-3.0, nemo-share
+Conflicts: panto-meta-gnome, panto-meta-main, panto-meta-x64
+Replaces: panto-meta-gnome, panto-meta-main, panto-meta-x64
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-meta-debian/panto-meta-debian-cinnamon_2014.02.05.1_all.deb
+Size: 2116
+SHA256: 0222fe1d8f6fa4ca24cafe500c106709a89d1acbd48f6fd01e139fc3e05a35a4
+SHA1: 9c4994b16298079fc56c5f884027235cd8f9c59f
+MD5sum: 07fbed6c48b65f028ee6318fc62764a8
+Description: Set of packages installed by default in the Cinnamon edition of Linux Panto
+ Set of packages installed by default in the Cinnamon edition of Linux Panto.
+
+Package: panto-meta-debian-codecs
+Version: 2015.06.16
+Architecture: amd64
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 26
+Depends: gstreamer0.10-ffmpeg, gstreamer0.10-plugins-good, gstreamer0.10-plugins-bad, gstreamer0.10-plugins-ugly, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libdvdcss2, libdvdnav4, libdvdread4, cabextract, unrar, unshield, w64codecs, totem-mozilla | gecko-mediaplayer, panto-flashplugin, libhal1-flash, vlc, vlc-plugin-notify, vlc-plugin-pulse
+Conflicts: gstreamer0.10-plugins-really-bad
+Replaces: gstreamer0.10-plugins-really-bad
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-meta-debian-codecs/panto-meta-debian-codecs_2015.06.16_amd64.deb
+Size: 2152
+SHA256: ba358444afd85c4877708c5b1bc2358fd7eae7eb8ea2a9a519009e1ea4537dfc
+SHA1: 9c863dd40daafa10479e7b7a11ebcfd10e10e70a
+MD5sum: 5f43a156477022bfed169c46b12e58a4
+Description: All the packages required for multimedia support in Linux Panto.
+ All the packages required for multimedia support in Linux Panto.
+
+Package: panto-meta-debian-core
+Source: panto-meta-debian
+Version: 2014.02.05.1
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 25
+Depends: linuxpanto-keyring, panto-info-debian, panto-artwork-debian, debian-system-adjustments, fortunes-husse, grub2-theme-panto, panto-translations, pantobackup, pantoinstall, pantonanny, pantosystem, pantoupdate-debian, panto-mirrors, pantosources, pantoupload, pantowelcome, pantowifi, p7zip, command-not-found, inxi
+Conflicts: panto-meta-common, panto-meta-debian
+Replaces: panto-meta-common, panto-meta-debian
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-meta-debian/panto-meta-debian-core_2014.02.05.1_all.deb
+Size: 2084
+SHA256: 2e5ce78f7d1d9193131c00e8dc3e9c2641093c4a7c9940165b8f27bc1aceb91b
+SHA1: 5894a3e6971f332b8c1fa67f32655a3c237a407f
+MD5sum: 709a15a450ee44cceaba54f66e6e5288
+Description: Core Linux Panto packages
+ Core Linux Panto packages
+
+Package: panto-meta-debian-kde
+Source: panto-meta-debian
+Version: 2014.02.05.1
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 25
+Depends: panto-meta-debian-core
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-meta-debian/panto-meta-debian-kde_2014.02.05.1_all.deb
+Size: 1924
+SHA256: a1104a6237ce93486a4a1a24ab6e70e2190452c7dfd89653179994f34efb78d1
+SHA1: cf0e8a6758d76c519b4e45e0e87489d83c7717c6
+MD5sum: 1f421c0d2571d8c5cd80f4c53ed25f1c
+Description: Set of packages required to run KDE
+ Set of packages required to run the KDE Desktop Environment.
+
+Package: panto-meta-debian-mate
+Source: panto-meta-debian
+Version: 2014.02.05.1
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 25
+Depends: panto-meta-debian-core, samba, samba-common-bin, smbclient, ttf-dejavu, ttf-dejavu-extra, ttf-wqy-microhei, gdebi, pidgin, thunderbird, fonts-droid, fonts-liberation, pantostick, xchat, xchat-common, xdg-user-dirs-gtk, caja, mate-control-center, mate-desktop, mate-dialogs, mate-icon-theme, mate-keyring, mate-menus, mate-notification-daemon, mate-panel, mate-session-manager, mate-settings-daemon-pulse, mate-settings-daemon, marco, panto-artwork-mate, mate-terminal, mate-media, mate-media-pulse, python-mate-menu, pantomenu, pantodesktop
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-meta-debian/panto-meta-debian-mate_2014.02.05.1_all.deb
+Size: 2186
+SHA256: b67fd5c66a4f5cb6a450adc72e02b5400d61197fd968451a892d307d0c400159
+SHA1: 08740ed4b994a4ae5b33fbd420d54b82db048e48
+MD5sum: a91a60fa07b1cbf6e47a9e2ee2b0feae
+Description: Set of packages required to run MATE
+ Set of packages required to run the MATE Desktop Environment.
+
+Package: panto-meta-debian-xfce
+Source: panto-meta-debian
+Version: 2014.02.05.1
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 25
+Depends: panto-meta-debian-core, panto-info-debian-xfce, panto-artwork-xfce, gtk2-engines-xfce, thunar, thunar-archive-plugin, thunar-media-tags-plugin, thunar-volman, xfce4-appfinder, xfce4-mixer, xfce4-panel, xfce4-places-plugin, xfce4-session, xfce4-settings, xfconf, xfdesktop4, xfce4-screenshooter, xfwm4, network-manager-gnome, network-manager-pptp-gnome
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-meta-debian/panto-meta-debian-xfce_2014.02.05.1_all.deb
+Size: 2076
+SHA256: b814aa7ba35ce179d56005d987ec9b7254df812f81985b7b12cd5664810cf990
+SHA1: 7d7737b819d8b5be7a30d66242a42c4deeff2df7
+MD5sum: 768c4d1e81bf8087aa310508d5726264
+Description: Set of packages required to run Xfce
+ Set of packages required to run the Xfce Desktop Environment.
+
+Package: panto-mirrors
+Version: 1.1.3
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 46
+Conflicts: pantoupdate (<= 4.3.4)
+Replaces: pantoupdate (<= 4.3.4), pantoupdate-debian (<= 1.0.7)
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-mirrors/panto-mirrors_1.1.3_all.deb
+Size: 3852
+SHA256: 5d694f79bd87745fbb93bebfcf6e645ef2cbbc53d12b4acda75111e7c9714043
+SHA1: 2978664339325a79f8e0ca8ac23eda8f06c39556
+MD5sum: 57696b7d9b8f760487742c21f0558ffa
+Description: Linux Panto Repository mirrors
+ List of Linux Panto Repository mirrors.
+
+Package: panto-themes
+Version: 1.4.6
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 6697
+Depends: panto-x-icons, panto-themes-gtk3, libreoffice-style-panto
+Conflicts: panto-clearloox-theme, panto-x-theme, panto-z-theme
+Replaces: panto-clearloox-theme, panto-x-theme, panto-z-theme
+Priority: optional
+Section: gnome
+Filename: pool/main/p/panto-themes/panto-themes_1.4.6_all.deb
+Size: 93588
+SHA256: 73b683767aa14f86543d3fdbac2c544b413576ed2549dd137a9a1b4ffac60d5b
+SHA1: ffce340a4f3d5be01f09c75fd150771bdf6d7c4f
+MD5sum: 4b31e1d948a4fa544d7d5eefc2136f08
+Description: Panto themes
+ A collection of panto themes.
+
+Package: panto-themes-gtk3
+Version: 3.8-9
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 2308
+Replaces: panto-themes
+Priority: optional
+Section: universe/gnome
+Filename: pool/main/p/panto-themes-gtk3/panto-themes-gtk3_3.8-9_all.deb
+Size: 205388
+SHA256: 4433a889b91d2e7f49f2f6d8f4eef0116be318a26f650eeb2fe89f0fdd36bdc5
+SHA1: 44261497bba930d8937e1bd69488405f34ae05cc
+MD5sum: 260645acf42bc10b77f97b4cf9bd1966
+Description: Panto themes for GTK3
+ A collection of panto themes for GTK3.
+
+Package: panto-translations
+Version: 2015.11.28
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 8036
+Priority: optional
+Section: admin
+Filename: pool/main/p/panto-translations/panto-translations_2015.11.28_all.deb
+Size: 1036650
+SHA256: 44c24aa13ad38b6e65c886e26bbcfc991780d6fde7826ca6ac28ca4f6fe64bcb
+SHA1: ad50cfb7059e93efa58b67c27fd883a1931d5070
+MD5sum: f09a6835ebf1c11bc3690fbe4b51ba70
+Description: Translation files for Linux Panto
+ Translation files for Linux Panto
+
+Package: pantobackup
+Version: 2.1.8
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 605
+Depends: python (>= 2.4), python (<< 3), python-gtk2, python-glade2, python-apt, python-vte
+Priority: optional
+Section: admin
+Filename: pool/main/p/pantobackup/pantobackup_2.1.8_all.deb
+Size: 47488
+SHA256: 9d50f6787c7879210fd0561b2c2a0c50fe999f49b96ef26fe53a072a7ac5d5d8
+SHA1: 3d13571eb8df9f66dd0361606233af797f848405
+MD5sum: 7699bfd08e0ffd07525bdae84dee94ce
+Description: Home Directory Backup Tool
+ Easily backup and restore your personal data and your software selection.
+
+Package: pantoconfig-xfce
+Version: 4.13.3
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 354
+Depends: python (>= 2.4), python (<= 3), python-gtk2, python-glade2, pantodesktop-xfce
+Replaces: xfcepantoconfig
+Priority: required
+Section: admin
+Filename: pool/main/p/pantoconfig-xfce/pantoconfig-xfce_4.13.3_all.deb
+Size: 20836
+SHA256: 3a13e980b059cce9eb11dc0e04dc09f92df2faa2e5647bd93c381d95421fce50
+SHA1: 6e70f3a0d13614276c169ee6f8105b44eb6bb333
+MD5sum: e97786035ec8f474ce13bee02140b1d4
+Description: The Linux Panto Control Center
+ A central configuration tool for Linux Panto Xfce Community Edition.
+
+Package: pantodesktop-xfce
+Version: 4.13.3
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 501
+Depends: python (>= 2.4), python (<< 3), python-gtk2, python-glade2, xdg-user-dirs, xdg-user-dirs-gtk, pantosystem, panto-artwork-xfce, numlockx
+Recommends: pyneighborhood
+Replaces: xfcepantodesktop
+Provides: xfcepantodesktop
+Priority: optional
+Section: admin
+Filename: pool/main/p/pantodesktop-xfce/pantodesktop-xfce_4.13.3_all.deb
+Size: 43448
+SHA256: eba7238e91412749f0804b37e2451ec2aa983aa4f06cb3603f8cb68360ecb842
+SHA1: 7f09d0239337a36384a77df250cc99a2e187e9ad
+MD5sum: a3f9f92e241f6f7a7171ab368c18029b
+Description: Extra settings for Linux Panto XFCE CE
+ *Has settings to enable/disable Ctrl+Alt+Backspace shortcut to restart X
+ *Has settings to enable/disable video thumbnails in Thunar.
+ *Has settings to enable/disable Num Lock for all users.
+ *Has settings to enable/disable Compiz Fusion.
+ *Has settings to enable/disable Compiz Fusion on login
+ *Has settings to enable/disable LCD System Font tweak
+ *Has settings to enable/disable Border around Desktop Icons with white or black text
+ *Has compiz-check with output window.
+ *Has setting to restore Lock Screen Dialog Window.
+
+Package: pantonanny
+Version: 1.5.1
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 165
+Depends: python3 (>= 3.3), python3-gi, panto-common
+Conflicts: pantonanny-gnome, pantonanny-kde
+Replaces: pantonanny-gnome, pantonanny-kde
+Priority: optional
+Section: admin
+Filename: pool/main/p/pantonanny/pantonanny_1.5.1_all.deb
+Size: 26946
+SHA256: a2e841d2629b9bfef4c0f74b97414cfc57f9685bc21da56a2e469b80f82d9fec
+SHA1: 30b2dd9fb52d519e8a5dbab60f07110494961031
+MD5sum: 0c135c715707396f78c5cab208ead184
+Description: Domain blocker for Linux Panto
+ Blocks outgoing traffic towards chosen domain names using /etc/hosts.
+
+Package: pantostick
+Version: 1.2.7
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 200
+Depends: python:any (>= 2.6.6-7~), coreutils (>= 6.10-3), gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, policykit-1, procps, python, python-glade2, python-parted, gir1.2-udisks-2.0
+Conflicts: usb-imagewriter
+Replaces: usb-imagewriter
+Priority: optional
+Section: misc
+Filename: pool/main/p/pantostick/pantostick_1.2.7_all.deb
+Size: 17890
+SHA256: 4e59f9ac7cc71fae82e3edaf07dac69f7ac5f40171a3652ba03f74b88a60ce30
+SHA1: 539ecb24b60832499baedbd65c10fd717e7d39a9
+MD5sum: f25c1510e63c6fd190b39d8169471a36
+Description: write .img and .iso files to USB sticks
+ A GUI to write .img or .iso files to a USB Key. It can also format them.
+
+Package: pantosystem
+Version: 8.2.0
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 156
+Depends: python3 (>= 3.3), perl, aptitude, cowsay, fortune, fortunes-husse, panto-common, panto-info-debian, zenity, dconf-gsettings-backend | gsettings-backend
+Priority: optional
+Section: admin
+Filename: pool/main/p/pantosystem/pantosystem_8.2.0_all.deb
+Size: 17214
+SHA256: 7d1412e9e8826e99369ae268579e6c68c383a563d21ce416b0a9c38544648e30
+SHA1: 3ea3c93b874bcd8ad27bb8dd23b54e45341e6142
+MD5sum: ce4de157aade41c9d30040c4d0c1fd65
+Description: Linux Panto System Base Package
+ Used by the desktop and other panto tools to gather
+ information and process common system tasks.
+
+Package: pantoupdate-debian
+Version: 1.1.1
+Architecture: all
+Maintainer: clem <root@linuxpanto.com>
+Installed-Size: 725
+Depends: python (>= 2.4), python (<< 3), python-gtk2, python-glade2, synaptic, panto-common
+Conflicts: pantoupdate, pantoupdate-gnome, pantoupdate-kde, pantoupdate-xfce
+Replaces: pantoupdate, pantoupdate-gnome, pantoupdate-kde, pantoupdate-xfce
+Priority: optional
+Section: admin
+Filename: pool/main/p/pantoupdate-debian/pantoupdate-debian_1.1.1_all.deb
+Size: 74650
+SHA256: 9a4ba5e47f7b885947cabb73b7785d45b8842262ab59e5976601e5de811af16b
+SHA1: 46bca3ba2968693cd7b1d72eecad2d0b249d2359
+MD5sum: 668725f7d926da2afefe9884700e7f02
+Description: Update Manager
+ Helps installing security updates and new versions of packages.
+
+Package: pantoupload
+Version: 4.0.3
+Architecture: all
+Maintainer: Philip Morrell <pantoupload.emorrp1@mamber.net>
+Installed-Size: 295
+Depends: python (>= 2.5), python (<< 3), python-paramiko (>= 1.7.4), python-gtk2, python-glade2, python-pexpect, python-notify, python-configobj, libnotify-bin
+Priority: optional
+Section: admin
+Filename: pool/main/p/pantoupload/pantoupload_4.0.3_all.deb
+Size: 37150
+SHA256: f01ff46a1927ecf6c2536ab724d9170ef6838ef9cda6b828c98015d070154219
+SHA1: a5aaf5d9c67411eec2c0142f121acdd4e8afe9dc
+MD5sum: 149885a3aec4cb8cb92a14ce5e0813a0
+Description: Uploads files on the Internet
+ pantoUpload allow you to upload files on the Internet.
+ This makes it easier to share or send big files which
+ would not fit in an email.
+
+Package: pantowifi
+Version: 4.0
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 7301
+Depends: ndiswrapper-utils-1.9
+Priority: optional
+Section: admin
+Filename: pool/main/p/pantowifi/pantowifi_4.0_all.deb
+Size: 1752682
+SHA256: 06992c38d0f5fa235f2ed2d4cc7cfc9cf250406a6ac0b42c68c8260d08a1427f
+SHA1: 5a19d992d164fb0c97b823522db866a1fe3742a8
+MD5sum: b3a83e1c56425b794834608d665ffbfc
+Description: Collection of drivers for you to configure your wireless card through ndiswrapper without connecting to the Internet.
+ Provides support for about 40 different wireless cards.
+

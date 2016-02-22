@@ -1,0 +1,8 @@
+Origin: cybersec8880
+Label: CyberSec Github
+Suite: stable
+Codename: jessie
+Architectures: i386 amd64 
+Components: main
+Description: Debian packages hosted on Cybersec github repository
+

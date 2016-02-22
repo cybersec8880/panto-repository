@@ -1,0 +1,29 @@
+Origin: cybersec8880
+Label: CyberSec Github
+Suite: stable
+Codename: jessie
+Date: Mon, 22 Feb 2016 21:09:08 UTC
+Architectures: i386 amd64
+Components: main
+Description: Debian packages hosted on Cybersec github repository
+MD5Sum:
+ 7fd09783a5e1a49ba0d60de7213393e8 20943 main/binary-i386/Packages
+ 72704f36248820110f7f81e3d6fd0357 6893 main/binary-i386/Packages.gz
+ ed1942c3d34e4474f9034a7fc7e1bedf 161 main/binary-i386/Release
+ 15ca65371a66717f6df369c63058ab56 25146 main/binary-amd64/Packages
+ c00e3bb90feae63017bf6828f8c0cd4c 7843 main/binary-amd64/Packages.gz
+ 02b202558502bdb920b9af40dbb12fd3 162 main/binary-amd64/Release
+SHA1:
+ 309fb1fd8ff5e3bdaf38d58f7e33c5b4bb47bdfd 20943 main/binary-i386/Packages
+ fcb45d84997109deadd4441b2245d03dda34281b 6893 main/binary-i386/Packages.gz
+ 94820e8bc9551265b43a2d600a6676bf740193d5 161 main/binary-i386/Release
+ 3d2d7c45ad975cc3879d8edd446a01ad702bdcb6 25146 main/binary-amd64/Packages
+ 56dd26ec51a558cbc5874a34d27e9d50269d9cad 7843 main/binary-amd64/Packages.gz
+ 879ae80c64e08d05713decb51283be1fb7412a64 162 main/binary-amd64/Release
+SHA256:
+ 866ee03c44fa080f4b46f6c87b353cff2687216813ec561d7a849cc0eb8a3ea1 20943 main/binary-i386/Packages
+ ba146493733c50b0b7271c08412d0e0584cb291f3f9f31f635594b985d609b83 6893 main/binary-i386/Packages.gz
+ 5242b216566d2e51be620afcac1c37a6142ffa45fe133c65092f630076223b50 161 main/binary-i386/Release
+ e2a45b153c376baacae4f18f4d8e0d02acf78d2e9006e2b65d67cfeb0ea138ef 25146 main/binary-amd64/Packages
+ c7f90cf07beda4447d647f7c5c5699225b209f829d19cb1c06ddb6671bebd910 7843 main/binary-amd64/Packages.gz
+ 4e575cab4803422c875d49c32496d1ef330722dd455a541a4bda0acbc1ca6feb 162 main/binary-amd64/Release

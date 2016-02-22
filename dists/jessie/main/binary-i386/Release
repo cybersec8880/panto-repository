@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: cybersec8880
+Label: CyberSec Github
+Architecture: i386
+Description: Debian packages hosted on Cybersec github repository
